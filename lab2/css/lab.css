@@ -1,0 +1,39 @@
+html{
+  background-color: #e4fde4;
+  font-size: 20px;
+
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  top:30%;
+  padding: 2%;
+}
+
+p{
+  text-indent: 20px;
+}
+
+#content{
+  background-color: #d9d4ff;
+  border: 10px solid #ffffff;
+  border-radius: 25px 0 25px 0;
+
+}
+
+#intro{
+  padding: 5%;
+  border: solid white 10px;
+  margin: 1%;
+
+}
+#partner{
+  color: #a096e7;
+}
+img{
+  float:right;
+  width:150px;
+  margin:10px;
+  
+}
