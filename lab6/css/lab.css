@@ -1,0 +1,42 @@
+html, body{
+  background-color:#f9f8db;
+  font-size: 20px;
+  background-image: url(../img/blue.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#main{
+  display: inline-block;
+  width: 60%;
+  margin: 10%;
+  padding: 5%;
+  background-color: #ffffff;
+  border: solid 30px #0a222d;
+  border-radius: 25px 0 25px 0;
+  height: fit-content;
+  box-shadow: 0px 0px 70px white;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 30px;
+}
+.center-div {
+  width: 30%;
+  border: solid 3px black;
+  height: 400px;
+}
+
+img{
+  float: right;
+  width: 300px;
+  height: auto;
+}
+#script{
+  border: dashed 5px #ea713b;
+}
