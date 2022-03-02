@@ -9,7 +9,7 @@
  }
 
  //test function
- array = [50, 22, 100, 150, 40, 12, 3]
+ array = [50, 22, 100, 150, 40, 12, 3];
  console.log("My array", array);
 
  var result = array.map(labEight);

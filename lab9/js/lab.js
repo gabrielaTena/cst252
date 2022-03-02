@@ -1,36 +1,25 @@
+/**
+ * Author:    Gabriela Tena
+ * Created:   02.28.2022
+ *
+ * (c) Copyright by Blub Corp.
+ **/
 
-// reverse sort an array passed as parameter
-//
-function reverseSortArray(myArray) {
-  //sorts array
-  myArray.sort();
-  // descending order.
-  myArray.reverse();
-  // return the new array.
-  return myArray;
-}
+ var outputEl = document.getElementById("flower");
+ //Make a buttom
 
-var a = ["banana", "durian", "pineapple guava", "pineapple", "mango", "apple"];
+ var oneEl = document.createElement("button");
 
-console.log(reverseSortArray(a));
+ outputEl.appendChild(oneEl);
 
-var b = [3, 56, 10, 32, 200, 45];
-console.log(reverseSortArray(b));
+ oneEl.innerHTML = "PRESS ME";
 
+ oneEl.style.backgroundColor = "#dfafe5";
 
+ //Make a border color
 
+ var outputEl = document.getElementById("flower");
 
-//function that takes a string and return the reverse of that string.
-function reverseString(str) {
-  //convert str to array
-  var array = str.split('');
-  //reverse of that array
-  array.reverse();
-  //convert back to str
-  var newStr = array.join('');
-  //return reverseString
-  return newStr;
+ outputEl.style.padding = "20px";
 
-}
-console.log(reverseString("Hello, friend"));
-console.log(reverseString("A man, a plan"));
+ outputEl.style.backgroundColor = "#aea5de91";
