@@ -1,0 +1,16 @@
+/**
+ * Author:    Gabriela Tena
+ * Created:   02.28.2022
+ *
+ * (c) Copyright by Blub Corp.
+ **/
+
+ var outputEl = document.getElementById("flower");
+
+ var oneEl = document.createElement("button");
+
+ outputEl.appendChild(oneEl);
+
+ oneEl.innerHTML = "PRESS ME";
+
+ oneEl.style.backgroundColor = "blue";
