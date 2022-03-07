@@ -5,7 +5,8 @@
  * (c) Copyright by Blub Corp.
  **/
 
- //Thanks for Wes' website
+ //Thanks to Wes' website: https:
+ //wmodes.github.io/cst252/lab10/index.html 
 
 //sortUserName - a function that takes users input and sorts the letters
 function reorderUserName(word) {
