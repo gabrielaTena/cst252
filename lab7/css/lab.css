@@ -34,10 +34,13 @@ h2{
 }
 
 img{
-  float: right;
+
   width: 300px;
   height: auto;
 }
 #script{
   border: dashed 5px #ea713b;
+}
+.debuging h2{
+  color: #7622ff;
 }

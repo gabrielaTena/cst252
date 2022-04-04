@@ -27,18 +27,22 @@ nav{
 .subject{
   border: solid 5px #ffeb3b;
   border-radius: 25px 0 25px 0;
+  padding: 10px;
 }
 .challenges{
   border: solid 5px #00bcd4;
   border-radius: 25px 0 25px 0;
+  padding: 10px;
 }
 .results{
   border: solid 5px #8bc34a;
   border-radius: 25px 0 25px 0;
+  padding: 10px;
 }
 .debug{
   border: solid 5px #9c27b0;
   border-radius: 25px 0 25px 0;
+  padding: 10px;
 }
 h1{
   font-size: 50px;
@@ -60,7 +64,6 @@ p{
 }
 
 img{
-  float: right;
   width: 300px;
   height: auto;
 }

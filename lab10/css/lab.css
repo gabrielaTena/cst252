@@ -43,3 +43,10 @@ img{
   width: 300px;
   height: auto;
 }
+ img .debug{
+  width: 300px;
+  height: auto;
+}
+.debug h2{
+  color: #aea5de;
+}

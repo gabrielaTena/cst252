@@ -8,6 +8,14 @@
 
  //sortUserName - a function that takes user input and sorts the letters
  // of their name
+ function sortUserName(userName) {
+    return userName.toLowerCase().split("").sort().join("");
+}
+function shuffleArray(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+    return array;
+}
+
  function randomizeName(userName) {
    //convert userName string to array
    var nameArray = userName.toLowerCase().split("");
@@ -38,7 +46,3 @@ function main() {
   document.writeln("<div class='name'>" + randomName + "</div>")
 }
 main();
-
-//output
-document.writeln("Hey! I fixed your name: ",
-  sortUserName(), "</br>");
