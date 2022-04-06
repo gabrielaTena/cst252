@@ -5,8 +5,7 @@
  * (c) Copyright by Blub Corp.
  **/
 
- //Thanks to Wes' website: https:
- //wmodes.github.io/cst252/lab10/index.html
+ //Thanks to Wes' website: https:wmodes.github.io/cst252/lab10/index.html
 
 //sortUserName - a function that takes users input and sorts the letters
 function shuffleArray(array) {
