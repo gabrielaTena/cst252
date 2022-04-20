@@ -5,41 +5,26 @@
  * (c) Copyright by Blub Corp.
  **/
 
-//Controls the game
-class Hangman{
-  //initialize
-  constructor(letter1, letter2) {
-    //set up the board
-    this.board = new Board();
-    //set up the player
-    this.player1 = new Player(letter1, 1, this.board);
-    this.player2 = new Player(letter2, 2, this.board);
-    //decide which player starts the game
-    this.current_player = this.player1;
-  }
-    //start playing
-    play(){
-      //loop infinitely
-      while(true){
-        //call the board rendering method
-        this.board.render();
-        //ask for coordinated from the current player
-        current_player.get_coordinates();
-      }
-}
 
-//fill out board
-//If the player guesses the correct word continues
-function sortingObject(str) {
-  mod = correct;
-  //If the player guesses correctly
-  if (mod == correct){
-    return "Continue"
-  }
-  //If the player makes a mistake
-  else if (mod == wrong){
-    return "Draw part one body-part of the hangman"
-  }
 
-}
-//loop this until player wins/loses
+ // URL
+ var url = "http://numbersapi.com/random/trivia";
+
+ //the button
+ $("#action").click(getAjax);
+//Staring with Ajax
+ function getAjax() {
+   // Using the core $.ajax() method
+   $.ajax({
+       // The URL for the request
+       url: url,
+       type: "GET",
+   })
+   // If the request succeeds
+   .done(function( data ) {
+       //alert("Success!");
+       console.log(data);
+       // Insert the output in the output div
+       $("#output").prepend("<p>" + data);
+   })
+ }
