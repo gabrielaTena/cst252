@@ -8,7 +8,8 @@
 
 
  // URL
- var url = "http://numbersapi.com/random/trivia";
+ // URL
+ var url = "https://opentdb.com/api.php?amount=10";
 
  //the button
  $("#action").click(getAjax);
@@ -25,6 +26,6 @@
        //alert("Success!");
        console.log(data);
        // Insert the output in the output div
-       $("#output").prepend("<p>" + data);
+       $("#output").prepend("<p>" + data.url);
    })
  }
